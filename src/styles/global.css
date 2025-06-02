@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  background: #f0f0f5;
+  color: #333;
+}
+
+.app {
+  padding-bottom: 60px;
+}
+
+.page {
+  padding: 1rem;
+}
+
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.tab-bar a {
+  text-decoration: none;
+  color: #007aff;
+}
